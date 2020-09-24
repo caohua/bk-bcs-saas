@@ -1591,6 +1591,7 @@ export default {
     'Kube-proxy代理模式：': ['Kube-proxy: '],
     '请输入集群名或ID': ['Please enter the cluster name or ID'],
     '请通过container查询异常详情': ['Please query the exception details through container'],
+    '添加表达式': ['Add expression'],
     // 变量的使用 $t('test', { vari1: 1, vari2: 2 })
     // 变量的使用 $t('test', { vari1: 1, vari2: 2 })
     'test': ['{vari1} ---english--- {vari2}']

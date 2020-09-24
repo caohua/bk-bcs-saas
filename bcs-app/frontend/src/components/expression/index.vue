@@ -75,7 +75,10 @@
             </div>
         </div>
         <div v-else class="expression-action">
-            <button class="bk-button bk-button-small" @click.stop.prevent="addKey">$t('添加表达式')</button>
+            <button class="bk-button bk-button-small" @click.stop.prevent="addKey">
+                <span class="bk-icon icon-plus f13 vm"></span>
+                <span class="text ml0">{{$t('添加表达式')}}</span>
+            </button>
         </div>
         <slot>
             <p :class="['biz-tip']">{{tip}}</p>
